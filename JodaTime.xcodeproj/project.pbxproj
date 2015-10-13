@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABB3B321BCCFF3F006A86A4 /* Days.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B1D1BCCFF3F006A86A4 /* Days.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B331BCCFF3F006A86A4 /* LocalDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B1F1BCCFF3F006A86A4 /* LocalDate.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B341BCCFF3F006A86A4 /* LocalDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B211BCCFF3F006A86A4 /* LocalDateTime.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B351BCCFF3F006A86A4 /* LocalTime.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B231BCCFF3F006A86A4 /* LocalTime.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B361BCCFF3F006A86A4 /* Minutes.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B251BCCFF3F006A86A4 /* Minutes.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B371BCCFF3F006A86A4 /* Months.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B271BCCFF3F006A86A4 /* Months.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B381BCCFF3F006A86A4 /* Period.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B291BCCFF3F006A86A4 /* Period.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B391BCCFF3F006A86A4 /* Seconds.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B2C1BCCFF3F006A86A4 /* Seconds.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B3A1BCCFF3F006A86A4 /* Weeks.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B2F1BCCFF3F006A86A4 /* Weeks.m */; settings = {ASSET_TAGS = (); }; };
+		AABB3B3B1BCCFF3F006A86A4 /* Years.m in Sources */ = {isa = PBXBuildFile; fileRef = AABB3B311BCCFF3F006A86A4 /* Years.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AABB3B0E1BCCFEF6006A86A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AABB3B101BCCFEF6006A86A4 /* libJodaTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJodaTime.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABB3B1C1BCCFF3F006A86A4 /* Days.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Days.h; sourceTree = "<group>"; };
+		AABB3B1D1BCCFF3F006A86A4 /* Days.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Days.m; sourceTree = "<group>"; };
+		AABB3B1E1BCCFF3F006A86A4 /* LocalDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDate.h; sourceTree = "<group>"; };
+		AABB3B1F1BCCFF3F006A86A4 /* LocalDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDate.m; sourceTree = "<group>"; };
+		AABB3B201BCCFF3F006A86A4 /* LocalDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDateTime.h; sourceTree = "<group>"; };
+		AABB3B211BCCFF3F006A86A4 /* LocalDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDateTime.m; sourceTree = "<group>"; };
+		AABB3B221BCCFF3F006A86A4 /* LocalTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalTime.h; sourceTree = "<group>"; };
+		AABB3B231BCCFF3F006A86A4 /* LocalTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalTime.m; sourceTree = "<group>"; };
+		AABB3B241BCCFF3F006A86A4 /* Minutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Minutes.h; sourceTree = "<group>"; };
+		AABB3B251BCCFF3F006A86A4 /* Minutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Minutes.m; sourceTree = "<group>"; };
+		AABB3B261BCCFF3F006A86A4 /* Months.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Months.h; sourceTree = "<group>"; };
+		AABB3B271BCCFF3F006A86A4 /* Months.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Months.m; sourceTree = "<group>"; };
+		AABB3B281BCCFF3F006A86A4 /* Period.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Period.h; sourceTree = "<group>"; };
+		AABB3B291BCCFF3F006A86A4 /* Period.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Period.m; sourceTree = "<group>"; };
+		AABB3B2A1BCCFF3F006A86A4 /* PeriodPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodPrivate.h; sourceTree = "<group>"; };
+		AABB3B2B1BCCFF3F006A86A4 /* Seconds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seconds.h; sourceTree = "<group>"; };
+		AABB3B2C1BCCFF3F006A86A4 /* Seconds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seconds.m; sourceTree = "<group>"; };
+		AABB3B2D1BCCFF3F006A86A4 /* WeekDays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekDays.h; sourceTree = "<group>"; };
+		AABB3B2E1BCCFF3F006A86A4 /* Weeks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weeks.h; sourceTree = "<group>"; };
+		AABB3B2F1BCCFF3F006A86A4 /* Weeks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weeks.m; sourceTree = "<group>"; };
+		AABB3B301BCCFF3F006A86A4 /* Years.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Years.h; sourceTree = "<group>"; };
+		AABB3B311BCCFF3F006A86A4 /* Years.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Years.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABB3B0D1BCCFEF6006A86A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABB3B071BCCFEF6006A86A4 = {
+			isa = PBXGroup;
+			children = (
+				AABB3B121BCCFEF6006A86A4 /* JodaTime */,
+				AABB3B111BCCFEF6006A86A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABB3B111BCCFEF6006A86A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABB3B101BCCFEF6006A86A4 /* libJodaTime.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABB3B121BCCFEF6006A86A4 /* JodaTime */ = {
+			isa = PBXGroup;
+			children = (
+				AABB3B1C1BCCFF3F006A86A4 /* Days.h */,
+				AABB3B1D1BCCFF3F006A86A4 /* Days.m */,
+				AABB3B1E1BCCFF3F006A86A4 /* LocalDate.h */,
+				AABB3B1F1BCCFF3F006A86A4 /* LocalDate.m */,
+				AABB3B201BCCFF3F006A86A4 /* LocalDateTime.h */,
+				AABB3B211BCCFF3F006A86A4 /* LocalDateTime.m */,
+				AABB3B221BCCFF3F006A86A4 /* LocalTime.h */,
+				AABB3B231BCCFF3F006A86A4 /* LocalTime.m */,
+				AABB3B241BCCFF3F006A86A4 /* Minutes.h */,
+				AABB3B251BCCFF3F006A86A4 /* Minutes.m */,
+				AABB3B261BCCFF3F006A86A4 /* Months.h */,
+				AABB3B271BCCFF3F006A86A4 /* Months.m */,
+				AABB3B281BCCFF3F006A86A4 /* Period.h */,
+				AABB3B291BCCFF3F006A86A4 /* Period.m */,
+				AABB3B2A1BCCFF3F006A86A4 /* PeriodPrivate.h */,
+				AABB3B2B1BCCFF3F006A86A4 /* Seconds.h */,
+				AABB3B2C1BCCFF3F006A86A4 /* Seconds.m */,
+				AABB3B2D1BCCFF3F006A86A4 /* WeekDays.h */,
+				AABB3B2E1BCCFF3F006A86A4 /* Weeks.h */,
+				AABB3B2F1BCCFF3F006A86A4 /* Weeks.m */,
+				AABB3B301BCCFF3F006A86A4 /* Years.h */,
+				AABB3B311BCCFF3F006A86A4 /* Years.m */,
+			);
+			path = JodaTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABB3B0F1BCCFEF6006A86A4 /* JodaTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABB3B191BCCFEF6006A86A4 /* Build configuration list for PBXNativeTarget "JodaTime" */;
+			buildPhases = (
+				AABB3B0C1BCCFEF6006A86A4 /* Sources */,
+				AABB3B0D1BCCFEF6006A86A4 /* Frameworks */,
+				AABB3B0E1BCCFEF6006A86A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JodaTime;
+			productName = JodaTime;
+			productReference = AABB3B101BCCFEF6006A86A4 /* libJodaTime.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABB3B081BCCFEF6006A86A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Boxx IT Solutions GmbH";
+				TargetAttributes = {
+					AABB3B0F1BCCFEF6006A86A4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = AABB3B0B1BCCFEF6006A86A4 /* Build configuration list for PBXProject "JodaTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AABB3B071BCCFEF6006A86A4;
+			productRefGroup = AABB3B111BCCFEF6006A86A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABB3B0F1BCCFEF6006A86A4 /* JodaTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABB3B0C1BCCFEF6006A86A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB3B351BCCFF3F006A86A4 /* LocalTime.m in Sources */,
+				AABB3B331BCCFF3F006A86A4 /* LocalDate.m in Sources */,
+				AABB3B371BCCFF3F006A86A4 /* Months.m in Sources */,
+				AABB3B321BCCFF3F006A86A4 /* Days.m in Sources */,
+				AABB3B361BCCFF3F006A86A4 /* Minutes.m in Sources */,
+				AABB3B341BCCFF3F006A86A4 /* LocalDateTime.m in Sources */,
+				AABB3B381BCCFF3F006A86A4 /* Period.m in Sources */,
+				AABB3B3B1BCCFF3F006A86A4 /* Years.m in Sources */,
+				AABB3B3A1BCCFF3F006A86A4 /* Weeks.m in Sources */,
+				AABB3B391BCCFF3F006A86A4 /* Seconds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABB3B171BCCFEF6006A86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AABB3B181BCCFEF6006A86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABB3B1A1BCCFEF6006A86A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AABB3B1B1BCCFEF6006A86A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABB3B0B1BCCFEF6006A86A4 /* Build configuration list for PBXProject "JodaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB3B171BCCFEF6006A86A4 /* Debug */,
+				AABB3B181BCCFEF6006A86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABB3B191BCCFEF6006A86A4 /* Build configuration list for PBXNativeTarget "JodaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB3B1A1BCCFEF6006A86A4 /* Debug */,
+				AABB3B1B1BCCFEF6006A86A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABB3B081BCCFEF6006A86A4 /* Project object */;
+}
