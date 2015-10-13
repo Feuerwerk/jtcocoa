@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'JodaTime'
-  spec.version      = '1.0.2'
+  spec.version      = '1.0.0'
   spec.summary      = 'A DateTime-API for Cocoa, inspired by JodaTime for Java'
   spec.homepage     = 'https://github.com/Feuerwerk/jtcocoa'
   spec.license     = { :type => 'MIT', :file => 'LICENSE' }
